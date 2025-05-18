@@ -1,0 +1,25 @@
+{
+  "name": "three-js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "eslint-plugin-erasable-syntax-only": "^0.3.1",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.7",
+    "@types/three": "^0.176.0",
+    "gsap": "^3.13.0",
+    "lil-gui": "^0.20.0",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7",
+    "three": "^0.176.0"
+  }
+}

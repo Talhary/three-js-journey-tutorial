@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three.js Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body class="relative bg-transparent">
+    <canvas class="canvas fixed top-0 left-0 w-full h-full z-0"></canvas>
+    <div class="relative z-10">
+      <nav class="fixed top-0 w-full bg-opacity-80 bg-gray-900 p-4">
+        <ul class="flex justify-center space-x-8">
+          <li><a href="#portfolio" class="text-white hover:text-blue-400">Portfolio</a></li>
+          <li><a href="#page" class="text-white hover:text-blue-400">My Page</a></li>
+          <li><a href="#info" class="text-white hover:text-blue-400">Info</a></li>
+        </ul>
+      </nav>
+      <div class="container mx-auto pt-20">
+        <section id="portfolio" class="min-h-screen flex items-center justify-center">
+          <div class="text-center text-white">
+            <h1 class="text-5xl font-bold mb-4">My Portfolio</h1>
+            <p class="text-lg">Explore my creative projects and 3D visualizations.</p>
+          </div>
+        </section>
+        <section id="page" class="min-h-screen flex items-center justify-center">
+          <div class="text-center text-white">
+            <h1 class="text-5xl font-bold mb-4">My Page</h1>
+            <p class="text-lg">Learn more about my work and journey.</p>
+          </div>
+        </section>
+        <section id="info" class="min-h-screen flex items-center justify-center">
+          <div class="text-center text-white">
+            <h1 class="text-5xl font-bold mb-4">My Info</h1>
+            <p class="text-lg">Contact details and more about me.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

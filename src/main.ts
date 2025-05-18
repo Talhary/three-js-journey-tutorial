@@ -549,11 +549,11 @@
 
 import * as Three from 'three'
 import './style.css'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+// import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import gsap from 'gsap'
 const canvas = <HTMLCanvasElement>document.querySelector('canvas.canvas');
 if (!canvas) throw new Error("failed to get canvas");
-import GUI from 'lil-gui';
+// import GUI from 'lil-gui';
 // const gui = new GUI();
 const scene = new Three.Scene();
 
